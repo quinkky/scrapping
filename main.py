@@ -24,7 +24,7 @@ async def main():
                 await page.type("input[id=" + _id + "]","maciek")
             if index == 1:
                 await page.type("input[id=" + _id + "]", "mioduszewski")
-
+        print(1)
 
 
 
